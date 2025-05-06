@@ -21,7 +21,7 @@ import sys
 
 # Configuration
 TCP_IP = '0.0.0.0'  # Listen on all interfaces
-TCP_PORT = 5678     # Default port for receiving frames
+TCP_PORT = 5001   # Default port for receiving frames
 PIPE_PATH = '/tmp/ocrpipe'  # Named pipe to OCR service
 BUFFER_SIZE = 65536  # Socket buffer size
 MAX_FRAME_SIZE = 100000  # Maximum expected JPEG frame size
